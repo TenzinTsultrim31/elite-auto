@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Auto Detail | Préparation Esthétique & Lustrage Toulouse</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Montserrat', 'sans-serif'] },
+                    colors: {
+                        dark: '#111111',
+                        gold: '#d4af37',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-dark text-white font-sans antialiased selection:bg-gold selection:text-black">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 bg-black/90 backdrop-blur-md border-b border-gold/20">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold tracking-widest uppercase">ELITE <span class="text-gold">AUTO DETAIL</span></div>
+            <a href="#devis" class="bg-gold text-black px-6 py-2 text-sm font-bold uppercase tracking-wider hover:bg-white transition-colors">
+                Devis Gratuit
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <div class="absolute inset-0 bg-gradient-to-t from-dark via-black/60 to-transparent z-10"></div>
+            <img src="https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=1920&q=80" alt="Lustrage Porsche" class="w-full h-full object-cover">
+        </div>
+        
+        <div class="relative z-20 max-w-5xl mx-auto px-6 text-center mt-20">
+            <p class="text-gold font-semibold tracking-[0.3em] uppercase mb-4">L'excellence automobile à Toulouse</p>
+            <h1 class="text-5xl md:text-7xl font-bold uppercase leading-tight mb-6">
+                Révélez l'éclat <br>de votre véhicule
+            </h1>
+            <p class="text-lg text-gray-300 mb-10 max-w-2xl mx-auto">
+                Spécialiste du lustrage, traitement céramique et préparation esthétique haut de gamme. Plus de 5 ans d'expertise pour sublimer votre carrosserie.
+            </p>
+            <button class="bg-gold hover:bg-white text-black px-8 py-4 font-bold uppercase tracking-widest transition-all">
+                Réserver mon créneau
+            </button>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="py-24 bg-dark">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Lustrage -->
+                <div class="p-8 border border-gray-800 hover:border-gold/50 transition-colors bg-black">
+                    <h3 class="text-2xl font-bold text-gold mb-4 uppercase">Lustrage Premium</h3>
+                    <p class="text-gray-400">Correction des micro-rayures, hologrammes et oxydation. Redonnez la brillance d'origine à votre vernis.</p>
+                </div>
+                <!-- Céramique -->
+                <div class="p-8 border border-gray-800 hover:border-gold/50 transition-colors bg-black">
+                    <h3 class="text-2xl font-bold text-gold mb-4 uppercase">Traitement Céramique</h3>
+                    <p class="text-gray-400">Protection longue durée (jusqu'à 5 ans) contre les UV, produits chimiques et micro-rayures. Effet déperlant extrême.</p>
+                </div>
+                <!-- Nettoyage -->
+                <div class="p-8 border border-gray-800 hover:border-gold/50 transition-colors bg-black">
+                    <h3 class="text-2xl font-bold text-gold mb-4 uppercase">Nettoyage Intégral</h3>
+                    <p class="text-gray-400">Dressing intérieur cuir et plastiques, shampouinage des moquettes et soins des détails sur-mesure.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
